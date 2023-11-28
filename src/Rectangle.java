@@ -98,7 +98,7 @@ public class Rectangle {
     }
 
      public void setStroke(int r, int g, int b){
-        setStroke(r,g,b);
+        setStroke(parent.color(r,g,b));
     }
 
     // Method to remove the stroke
